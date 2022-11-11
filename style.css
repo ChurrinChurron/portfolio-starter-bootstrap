@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --light-black: rgb(10,10,11);
+    --yellow: rgb(251, 232, 80);
+    --dark-gray: rgb(46, 48, 56);
+    
+    /* letras colores */
+
+    --white: rgb(255,255,255);
+    --gray: rgb(150, 150, 150);
+
+    /* Tipografía */
+
+    --prata: "Prata", sans-serif;
+    --inter: "Inter", sans-serif;
+}
+
+body {
+
+    font-family: var(--prata);
+    background-color: var(--light-black);
+    color: var(--gray);
+}
+
+.inter {
+
+    font-family: var(--inter);
+    font-size: 1.050em;
+}
+
+.bg-button, .bg-button:hover {
+
+    background-color: var(--yellow);
+}
+
+.nav-link {
+
+    font-family: var(--inter);
+    color: var(--gray);
+}
+
+.nav-link:hover {
+
+    color: var(--gray);
+}
+
+.nav__title, .bi-list, .title, .nav__title:hover {
+
+    color: var(--white);
+}
+
+/* #walmart, #visa {
+
+    text-align: right;
+} */
+
+.pages p, .info p, .work p {
+
+    font-family: var(--inter);
+}
+
+.info, footer {
+
+    background-color: var(--dark-gray);
+}
+
+/* .navbar-toggler-icon {
+
+    color:rgb(251, 232, 80);
+} */
